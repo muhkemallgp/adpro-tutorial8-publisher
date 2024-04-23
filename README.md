@@ -20,10 +20,10 @@ you repository.
     Ini berarti bahwa _publisher_ dan _subscriber_ sedang berkomunikasi melalui pialang pesan yang sama, memungkinkan mereka untuk bertukar pesan dengan lancar.
 
 ### RunningRabbitMQ
-![alt text](assets\RabbitMQ.png)
+![alt text](RabbitMQ.png)
 
 ### ProcessingEvent (Concole SS)
-![alt text](assets\ConsoleRunning.png)
+![alt text](ConsoleRunning.png)
 
 
 Ketika message broker seperti RabbitMQ sedang aktif, setiap kali kita menjalankan program Subscriber dan Publisher (dengan perintah cargo run), Publisher akan mengirimkan data ke broker pesan, yang kemudian diterima oleh Subscriber. Dari ilustrasi yang diberikan, terlihat bahwa Publisher mengirimkan data sekali ke broker pesan dan kemudian Subscriber menerima data tersebut. Dengan kata lain, dalam proses ini, Publisher bertindak sebagai pengirim data, sedangkan Subscriber berperan sebagai penerima.

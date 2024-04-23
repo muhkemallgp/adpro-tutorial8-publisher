@@ -18,3 +18,6 @@ you repository.
     URL "amqp://guest:guest@localhost:5672" sama di kedua program _publisher_ dan _subscriber_, yang berarti keduanya terhubung ke instance pialang pesan yang sama yang berjalan di localhost dengan port 5672. 
     
     Ini berarti bahwa _publisher_ dan _subscriber_ sedang berkomunikasi melalui pialang pesan yang sama, memungkinkan mereka untuk bertukar pesan dengan lancar.
+
+### RunningMQ
+![alt text](image.png)

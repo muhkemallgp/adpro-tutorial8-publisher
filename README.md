@@ -27,3 +27,8 @@ you repository.
 
 
 Ketika message broker seperti RabbitMQ sedang aktif, setiap kali kita menjalankan program Subscriber dan Publisher (dengan perintah cargo run), Publisher akan mengirimkan data ke broker pesan, yang kemudian diterima oleh Subscriber. Dari ilustrasi yang diberikan, terlihat bahwa Publisher mengirimkan data sekali ke broker pesan dan kemudian Subscriber menerima data tersebut. Dengan kata lain, dalam proses ini, Publisher bertindak sebagai pengirim data, sedangkan Subscriber berperan sebagai penerima.
+
+### MessageQueeProcessing
+![alt text](MQProcess.png)
+
+Pada gambar diatas saya melakukan run pada _Publisher_ dua kali dengan diselingi waktu beberapa detik yang membuat hanya ada dua _spikes_ dan diselingi koson. Dari hubungan ini dapat diketahui bahwa ___message rates___ akan mengalami peningkatan sesuai dengan _Publisher_ yang mengirimkan data ke ___message broker___. Semakin tinggi message rates maka message broker akan semakin banyak menerima data dari _Publisher_.
